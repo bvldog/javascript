@@ -1,0 +1,35 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+nav { 
+      display: flex;
+      justify-content: space-between;
+      padding:5px;
+      height:50px;
+      background-color: dodgerblue;
+      font-family: 'Noto Sans KR', sans-serif;
+      color: white;
+      font-size: 17px;
+      font-weight: 900;
+}
+
+.brandName { 
+      margin-top: 15px;
+      margin-left: 15px;
+}
+
+.currentTime {
+        margin-top: 15px;
+}
+
+.weather { 
+        display:flex;
+        margin-top: 15px;
+        margin-right: 15px;
+}
+.weather img { 
+        margin-left: 5px;
+        width: 30px;
+        height: 30px;
+}
+
