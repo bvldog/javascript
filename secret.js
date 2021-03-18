@@ -1,12 +1,3 @@
 //OpenWeatherMap API KEY 
 //
-const API_KEY = "xxxx"
-
-
-export default {
-function exportAPI_KEY() { 
-        return API_KEY
-}
-
-
-}
+export default const API_KEY = "6bde6eda73d2c477def9e8d659a4cedb"
