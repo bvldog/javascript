@@ -1,7 +1,6 @@
-import * from './secret';
 const weather = document.querySelector(".weather");
 const wImg = document.querySelector(".wImg");
-
+const API_KEY = ""
 const COORDS = "coords";
 
 function getWeatherAPI(lat, lon) {

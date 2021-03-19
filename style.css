@@ -33,3 +33,23 @@ nav {
         height: 30px;
 }
 
+section { 
+        background-color: #eee8aa;
+        height: 100vh;
+}
+
+.greetings {
+        padding: 30px;
+}
+.greetingInput, h1{  
+        display:none;
+}
+
+.showing { 
+        display: block;
+}
+
+
+
+
+
