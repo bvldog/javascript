@@ -34,8 +34,18 @@ nav {
 }
 
 section { 
+        display: flex; 
         background-color: #eee8aa;
         height: 100vh;
+}
+.colum-1 { 
+        width: 33.3%;
+        text-align:center;
+}
+.colum-2 { 
+        width: 33.3%;
+        text-align:center;
+        background-color: #dbdbdb;
 }
 
 .greetings {
@@ -49,6 +59,34 @@ section {
         display: block;
 }
 
+.canvas { 
+        margin: 30px auto;
+        text-align: center;
+        background-color: white;
+        width: 300px;
+        height: 300px;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        margin-bottom: 30px;
+}
+
+.canvasPen { 
+        margin:20px;
+}
+.color { 
+        display: flex;
+        margin: 20px auto;
+        justify-content: center;
+}
+
+.color > div { 
+        margin:3px;
+        width: 30px;
+        height: 30px;
+        border-radius: 25px;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+        cursor: pointer;
+}
 
 
 
