@@ -22,25 +22,34 @@
                                 </form>
                                 <h1>Hello There</h1>
                             </div>
+                            <div class="todoSection">
+                                    <form class="todoForm">
+                                            <input placeholder="Today works" />
+                                            <ul class="todoList"></ul>
+                                    </form>
+                            </div>
                         </div>
                         <div class="colum-2">
-                            <div class="canvas" >
-                            </div>
-                            <div class="canvasPen">switch</div> 
+                            <canvas class="canvas" id="jsCanvas" >
+                            </canvas>
+                            <div class="canvasPen">
+                                    <input type="range"  id="pencilWidth" name="pencil" 
+         min="0" max="5" value="2.5" step="0.1">
+                            </div> 
                             <div class="canvasBtn">
-                                <button>paint</button>
-                                <button>save</button>
+                                <button id="changeMode">Fill</button>
+                                <button id="saveBtn">save</button>
                             </div>
                             <div class="color">
-                                    <div class="color1" style="background-color: #2c2c2c;"></div>
-                                    <div class="color2" style="background-color: white;"></div>
-                                    <div class="color3" style="background-color: #ff3b30;"></div>
-                                    <div class="color4" style="background-color: #ff9500;"></div>
-                                    <div class="color5" style="background-color: #ffcc00;"></div>
-                                    <div class="color6" style="background-color: #4cd963;"></div>
-                                    <div class="color7" style="background-color: #5ac8fa;"></div>
-                                    <div class="color8" style="background-color: #0579FF;"></div>
-                                    <div class="color9" style="background-color: #5856d6;"></div>
+                                    <div class="color1 jsColor" style="background-color: #2c2c2c;"></div>
+                                    <div class="color2 jsColor" style="background-color: white;"></div>
+                                    <div class="color3 jsColor" style="background-color: #ff3b30;"></div>
+                                    <div class="color4 jsColor" style="background-color: #ff9500;"></div>
+                                    <div class="color5 jsColor" style="background-color: #ffcc00;"></div>
+                                    <div class="color6 jsColor" style="background-color: #4cd963;"></div>
+                                    <div class="color7 jsColor" style="background-color: #5ac8fa;"></div>
+                                    <div class="color8 jsColor" style="background-color: #0579FF;"></div>
+                                    <div class="color9 jsColor" style="background-color: #5856d6;"></div>
 
                             </div>
                        </div>
@@ -50,6 +59,8 @@
                 <script src="./currentTime.js"></script>
                 <script src="./weather.js"></script>
                 <script src="./greetings.js"></script>
+                <script src="./todo.js"></script>
+                <script src="./canvas.js"></script>
 
         </body>
 

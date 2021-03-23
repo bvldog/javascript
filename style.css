@@ -13,6 +13,11 @@ nav {
       font-weight: 900;
 }
 
+.colum-1 { 
+        width: 33.3%;
+        text-align:center;
+}
+
 .brandName { 
       margin-top: 15px;
       margin-left: 15px;
@@ -38,14 +43,40 @@ section {
         background-color: #eee8aa;
         height: 100vh;
 }
-.colum-1 { 
-        width: 33.3%;
-        text-align:center;
+
+.todoSection {
 }
-.colum-2 { 
-        width: 33.3%;
-        text-align:center;
-        background-color: #dbdbdb;
+.todoForm input { 
+        width: 60%;
+        border: none;
+        padding: 0;
+        height: 30px;
+}
+.todoForm .todoList { 
+        margin: auto;
+        width: 60%;
+        padding: 10px 0;
+}
+
+.todoForm .todoList > li { 
+        padding: 3px 0;
+        text-align: left;
+        }
+.todoForm .todoList > li.done { 
+        color: red;
+}
+.todoForm .todoList > li > button { 
+        all: unset;
+        margin-left: 5px;
+        background-color: white;
+        border-radius: 10px; 
+        width: 30px;
+        padding: 2px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 9px;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+        border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .greetings {
@@ -58,6 +89,14 @@ section {
 .showing { 
         display: block;
 }
+
+
+.colum-2 { 
+        width: 33.3%;
+        text-align:center;
+        background-color: #dbdbdb;
+}
+
 
 .canvas { 
         margin: 30px auto;
